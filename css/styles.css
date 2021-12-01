@@ -1,0 +1,31 @@
+:root{
+    --background: #222831;
+    --background-secondary: #393E46; 
+    --dark3: #00ADB5; 
+    --dark4: #00FFF5; 
+}
+
+body{
+    background-color: var(--background);
+    padding: 30px;
+}
+
+#title {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.search {
+    align-items: center;
+    width: 100%;
+}
+
+.search input {
+    color: #fff;
+    height: 30px;
+    width: 100%;
+    border-radius: 25px;
+    background-color: var(--background-secondary);
+    border-color: transparent;
+}
